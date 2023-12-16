@@ -9,7 +9,7 @@ CAPABILITIES = {
   'automationName' => 'UiAutomator2',
   'appPackage' => 'com.google.android.deskclock',
   'appActivity' => 'com.android.deskclock.DeskClock'
-}
+}.freeze
 
 RSpec.configure do |config|
   config.before(:each) do
